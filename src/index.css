@@ -12,7 +12,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  color: rgb(255, 255, 255);
+  color : #EEE0C9;
   display: flex;
 }
 .App{
@@ -29,7 +29,6 @@ body{
   align-items: center;
   text-align: center;
   background: #141E30;
-  /* background: -webkit-linear-gradient(to right, #243B55, #141E30); */
   background: -webkit-linear-gradient(to right, #0F0F0F, #232D3F);
   background: linear-gradient(to right, #232D3F, #0F0F0F);
   border: 5px solid #608094;
@@ -81,7 +80,7 @@ body{
   gap: 1rem;
 }
 .windData span{
-  color: #619460;
+  color: #F99417;
 }
 .currtemp div:nth-child(2){
   font-size: 4rem;
@@ -93,7 +92,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(255, 255, 255);
+  background-color: #EEE0C9;
   width: 300px;
   border-radius: 20px;
   padding: 0 1rem;
@@ -124,7 +123,7 @@ input{
   left: 51%;
   top: 7%;
   cursor: pointer;
-  background-color: #dfdfdfe1;
+  background-color: #EEE0C9;
   font-size: 1.4rem;
   padding: 0.3rem 0.7rem;
   border-radius: 10px;
